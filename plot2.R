@@ -16,6 +16,6 @@ x = powerData[, dateCol]
 y = powerData[, Global_active_power]
 
 # open png device, plot line with annotations, close graphics device
-png("plot2.png", width = 500, height = 500)
+png("plot2.png", width = 480, height = 480)
 plot(x, y, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
 dev.off()
